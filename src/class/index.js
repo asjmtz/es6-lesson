@@ -2,7 +2,16 @@
 // 
 console.log('\n\n\nclass==========================================================\n\n\n');
 export class ESClass{
-	
+
+	main(){
+		alert("asdsdas");
+		var s ;
+		var ss = {};
+
+	}
+
+	codeString = this.main.toString().replace(/\n/g, '<br/>');
+	code = `${this.codeString}`;
 }
 
 
