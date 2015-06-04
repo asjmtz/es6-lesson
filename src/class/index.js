@@ -1,4 +1,11 @@
 // test Class
+// 
+console.log('\n\n\nclass==========================================================\n\n\n');
+export class ESClass{
+	
+}
+
+
 class Welcome{
 	greet(){
 		console.log('hello es6');
