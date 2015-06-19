@@ -23,9 +23,14 @@ System.config({
     "aurelia-framework": "github:aurelia/framework@0.11.0",
     "aurelia-http-client": "github:aurelia/http-client@0.8.1",
     "aurelia-router": "github:aurelia/router@0.8.1",
+    "babel": "npm:babel-core@5.5.5",
+    "babel-runtime": "npm:babel-runtime@5.5.5",
     "bootstrap": "github:twbs/bootstrap@3.3.4",
+    "core-js": "npm:core-js@0.9.14",
     "css": "github:systemjs/plugin-css@0.1.11",
     "font-awesome": "npm:font-awesome@4.3.0",
+    "highlight.js": "npm:highlight.js@8.6.0",
+    "isagalaev/highlight.js": "github:isagalaev/highlight.js@7.0.1",
     "traceur": "github:jmcriffey/bower-traceur@0.0.88",
     "traceur-runtime": "github:jmcriffey/bower-traceur-runtime@0.0.88",
     "github:aurelia/animator-css@0.2.0": {
@@ -185,6 +190,9 @@ System.config({
     "npm:assert@1.3.0": {
       "util": "npm:util@0.10.3"
     },
+    "npm:babel-runtime@5.5.5": {
+      "process": "github:jspm/nodelibs-process@0.1.1"
+    },
     "npm:buffer@3.2.2": {
       "base64-js": "npm:base64-js@0.0.8",
       "ieee754": "npm:ieee754@1.1.5",
@@ -219,6 +227,10 @@ System.config({
     },
     "npm:font-awesome@4.3.0": {
       "css": "github:systemjs/plugin-css@0.1.11"
+    },
+    "npm:highlight.js@8.6.0": {
+      "buffer": "github:jspm/nodelibs-buffer@0.1.0",
+      "process": "github:jspm/nodelibs-process@0.1.1"
     },
     "npm:https-browserify@0.0.0": {
       "http": "github:jspm/nodelibs-http@1.7.1"
