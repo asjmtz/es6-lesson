@@ -9,13 +9,13 @@ export class App {
 			{
 				route: ['', 'class'],	
 				title: 'Class', 
-				moduleId: './class/index', 
+				moduleId: './page/class/index', 
 				nav: true
 			},
 			{
 				route: 'arrow',	
 				title: 'Arrow',
-				moduleId: './arrow/index',
+				moduleId: './page/arrow/index',
 				nav: true
 			}
 		]);

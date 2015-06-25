@@ -1,10 +1,6 @@
 // test Class
 // 
 
-import hljs from 'highlight.js';
-import 'highlight.js/styles/dark.css!';
-import $ from 'jquery';
-
 console.log('\n\n\nclass==========================================================\n\n\n');
 export class ESClass{
 
@@ -15,16 +11,6 @@ export class ESClass{
 	}
 	codeString = this.main.toString();
 	
-	init(){
-
-		// 这么写没有用
-		$('pre code').each(function(i, block) {
-			hljs.highlightBlock(block);
-		});
-		console.log("hljs", $('pre code').length);
-		// hljs.initHighlightingOnLoad();
-	}
-
 	// this.init();	
 	activate(params, routeConfig, navigationInstruction){
 		console.log('activate', params, routeConfig);
@@ -35,9 +21,6 @@ export class ESClass{
 	}
 }
 
-var p = new ESClass;
-p.init();
-console.log('inint', $('router-view').html());
 
 class Welcome{
 	greet(){
