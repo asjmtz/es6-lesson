@@ -1,7 +1,6 @@
 // test Class
 // 
 
-console.log('\n\n\nclass==========================================================\n\n\n');
 export class ESClass{
 
 	main(){
@@ -13,11 +12,7 @@ export class ESClass{
 	
 	// this.init();	
 	activate(params, routeConfig, navigationInstruction){
-		console.log('activate', params, routeConfig);
-	}
-	bind(bindingContext){
-
-		console.log(bindingContext, $('router-view').html());
+		console.log('activate', this.codeString);
 	}
 }
 
@@ -83,4 +78,3 @@ it.say();
 it.smile();
 it.code('alert("hello world")');
 ITman.wow();
-
