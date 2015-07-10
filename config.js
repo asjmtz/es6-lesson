@@ -17,6 +17,7 @@ System.config({
 
 System.config({
   "map": {
+    "Semantic-Org/Semantic-UI": "github:Semantic-Org/Semantic-UI@2.0.2",
     "aurelia-animator-css": "github:aurelia/animator-css@0.2.0",
     "aurelia-bootstrapper": "github:aurelia/bootstrapper@0.12.0",
     "aurelia-dependency-injection": "github:aurelia/dependency-injection@0.7.1",

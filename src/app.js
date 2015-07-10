@@ -17,6 +17,12 @@ export class App {
 				title: 'Arrow',
 				moduleId: './page/arrow/index',
 				nav: true
+			},
+			{
+				route: 'semantic',
+				title: 'semantic',
+				moduleId: './page/semantic/index',
+				nav: true
 			}
 		]);
 
